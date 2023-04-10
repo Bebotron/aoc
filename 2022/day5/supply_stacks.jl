@@ -1,6 +1,6 @@
 using DelimitedFiles
 
-instructions = readlines(ARGS[1])
+instructions = readlines("2022/day5/input.txt")
 
 function separate_instructions(instructions)
     arrangement = Vector{String}(undef, 1)

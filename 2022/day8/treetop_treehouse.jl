@@ -1,4 +1,4 @@
-tree_map_input = readlines(ARGS[1])
+tree_map_input = readlines("2022/day8/input.txt")
 tree_map = zeros(Int, length(tree_map_input), length(tree_map_input[1]))
 
 for (row_index, row) in enumerate(tree_map_input)

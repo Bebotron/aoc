@@ -1,5 +1,5 @@
 # rucksacks = readlines(ARGS[1])
-rucksacks = readlines("2022/day3/test_input.txt")
+rucksacks = readlines("2022/day3/input.txt")
 first_compartments = similar(rucksacks)
 second_compartments = similar(rucksacks)
 common_items = Array{Char}(undef, length(rucksacks))

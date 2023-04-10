@@ -1,4 +1,4 @@
-all_commands = readlines(ARGS[1])
+all_commands = readlines("2022/day7/input.txt")
 directory_size_list = [0]
 popfirst!(all_commands)
 

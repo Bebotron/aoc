@@ -1,6 +1,6 @@
 using DelimitedFiles
 
-section_assignments = replace.(readdlm(ARGS[1], ','), '-' => ':')
+section_assignments = replace.(readdlm("2022/day4/input.txt", ','), '-' => ':')
 section_ranges = Meta.parse.(section_assignments)
 
 count = 0
