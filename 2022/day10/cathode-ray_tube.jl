@@ -33,7 +33,6 @@ function print_CRT(CRT)
     end
 end
 
-global register_X = 1
 global cycle_number = 0
 pixel_line = [40, 80, 120, 160, 200, 240]
 sprite_position = [1, 2, 3]
